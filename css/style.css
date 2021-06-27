@@ -53,3 +53,31 @@ p{
 #img1 img{
     border-radius: 10px;
 }
+#img1 img:hover{
+    transform: scale(1.2);
+    transition-delay: 0.1s;
+   
+}
+.row{
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.row div{
+    width: 450px;
+}
+
+#about-us{
+    padding: 2%;
+}
+
+.container{
+    width: 100%;
+    padding: 1px;
+    margin: 0px;
+}
+.logo {
+    text-align: center;
+}
