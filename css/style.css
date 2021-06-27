@@ -1,18 +1,16 @@
 h2{
     font-family: 'Architects Daughter', cursive;
-    color: rgb(200, 219, 29);
+    color: rgb(61, 111, 131);
     font-size: 60px;
 }
 body {
-    background: url(../images/back.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: black;
 }
 nav ul{
     list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 ul li{
     display: inline;
@@ -20,10 +18,10 @@ ul li{
 }
 li a{
     display: block;
-  color: rgb(187, 157, 146);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    color: rgb(187, 157, 146);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 #about{
     text-align: center;
@@ -36,7 +34,7 @@ h1{
     text-shadow: 3px 3px 5px black;
 }
 p{
-    color:rgb(235, 184, 17);
+    color:rgb(113, 183, 211);
 }
 #img1{
     margin-right: 3%; 
@@ -115,17 +113,17 @@ p{
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
-  .flip-card-front, .flip-card-back {
+.flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
 }
-  .flip-card-front {
+.flip-card-front {
     background-color: #bbb;
     color: black;
 }
-  .flip-card-back {
+.flip-card-back {
     background-color: lavender;
     color: white;
     transform: rotateY(180deg);
@@ -136,8 +134,8 @@ p{
     object-fit: cover;
     border-radius: 20px;
     transition-duration: 0.2s;
-  }
-  .img2:hover{
+}
+.img2:hover{
     box-shadow: 0 0 4px 3px;
     transition: 0.5s;
 }
@@ -178,6 +176,9 @@ p{
     transform: scale(1.2);
     transition-delay: 0.1s;
    
+}
+.jumbotron{
+    background-color: rgb(4, 3, 3);
 }
 footer{
     padding-top: 30px;
