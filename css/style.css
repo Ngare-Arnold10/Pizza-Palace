@@ -28,3 +28,28 @@ li a{
 #about{
     text-align: center;
 }
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(189, 163, 144);
+    text-shadow: 3px 3px 5px black;
+}
+p{
+    color:rgb(235, 184, 17);
+}
+#img1{
+    margin-right: 3%; 
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+}
+#img1:hover{
+    box-shadow: 0 0 4px 3px;
+    transition: 0.5s;
+}
+
+#img1 img{
+    border-radius: 10px;
+}
