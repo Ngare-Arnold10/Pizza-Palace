@@ -14,3 +14,17 @@ nav ul{
   padding: 0;
   overflow: hidden;
 }
+ul li{
+    display: inline;
+    float: left;
+}
+li a{
+    display: block;
+  color: rgb(187, 157, 146);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#about{
+    text-align: center;
+}
