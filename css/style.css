@@ -1,0 +1,16 @@
+h2{
+    font-family: 'Architects Daughter', cursive;
+    color: rgb(200, 219, 29);
+    font-size: 60px;
+}
+body {
+    background: url(../images/back.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
